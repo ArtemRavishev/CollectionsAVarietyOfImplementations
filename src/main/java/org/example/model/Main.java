@@ -29,7 +29,7 @@ public class Main {
         double totalSalaries = employeeMap.totalSalaries();
             System.out.println(" Сумма ЗП всех сотрудников составляет: " + totalSalaries + " рублей");
         Employee employeeWithMinSalary = employeeMap.findEmployeeWithMinSalary();
-            System.out.println("Минимальная ЗП у следующего сотрудника: " + employeeWithMinSalary);
+            System.out.println("  Минимальная ЗП у следующего сотрудника: " + employeeWithMinSalary);
         Employee employeeWithMaxSalary = employeeMap.findEmployeeWithMaxSalary();
             System.out.println("Максимальная ЗП у следующего сотрудника: " + employeeWithMaxSalary);
         double averageSalary = employeeMap.averageSalary();
